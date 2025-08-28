@@ -4,6 +4,7 @@ const fs = require("fs");
 const hbs = require("hbs");
 const app = express();
 require("./db/conn");
+const register = require("./models/registers");
 
 const port = process.env.PORT || 3000;
 
